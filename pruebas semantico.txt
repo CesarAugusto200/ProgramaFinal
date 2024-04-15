@@ -1,0 +1,106 @@
+variable1 => int(23) 
+
+variable2 => string("hola")
+
+Fn => escribir(){
+print(23)
+}
+
+Fn => escribir(){
+print("hola")
+}
+
+Fn => escribir(){
+variable2 => string("hola")
+print(variable2)
+} 
+
+Fn => escribir(){
+variable1 => int(23)
+print(variable1)
+} 
+
+variable1 => int(23) 
+Fn => escribir(int variable1){
+print(variable1)
+}
+
+variable2 => string("hola")
+Fn => escribir(string variable2){
+print(variable2)
+}
+
+variable1 => int(23) 
+variable2 => string("hola")
+Fn => escribir(int variable1, string variable2){
+print(variable1)
+print(variable2)
+}
+
+variable1 => int(9) 
+while(variable1 < 12)=>{
+variable1++
+print("hola")
+}
+
+variable1 => int(11) 
+variable2 => string("hola")
+while(variable1 < 12)=>{
+variable1++
+print(variable2)
+}
+
+variable1 => int(23)
+if(variable1 < 12)=>{
+print("holamundo")
+} 
+
+variable1 => int(23)
+variable2 => string("hola")
+if(variable1 != 12)=>{
+print(variable2)
+}  
+
+variable1 => int(23)
+if(variable1 == 12)=>{
+print("holamundo")
+}else => {
+print("no")
+}
+
+
+variableAux => string("hola")
+variable2 => string("mundo")
+variable1 => int(23)
+if(variable1 == 12)=>{
+print(variable2)
+}else => {
+print(variableAux)
+}
+
+
+variable1 => int(3)
+switch (variable1) => {
+case 1 =>{
+print("case1") 
+break
+} case 2 => {
+print("case2") 
+break
+} default => {
+print("defaul")
+}
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
